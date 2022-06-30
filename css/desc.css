@@ -6,12 +6,12 @@ body{
     position: relative;
     background-color: black;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 56.25%;
 }
 
 .contimgdiv img{
     position: absolute;
-    height: 50%;
+    height: 100%;
     width: 100%;
     top: 0px;
     left: 0px;
