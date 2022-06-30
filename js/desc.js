@@ -34,7 +34,7 @@ const imgrecup = async (nomani) => {
         urlimg = url;
       }
     }
-    ponerimg(urlimg);
+    //ponerimg(urlimg);
   } catch (error) {
     console.log(error);
   }
