@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.contimgdiv {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.contimgdiv img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.titulo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.tempel {
+  display: flex;
+  overflow: auto;
+}
+
+.tempel a {
+  margin: 8px;
+  padding: 8px;
+  background: #f1b814;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.cap {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.capi {
+  padding-left: 15px;
+}
+
+.cap a {
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #f1b814;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
