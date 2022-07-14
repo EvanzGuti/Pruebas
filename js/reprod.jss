@@ -9,9 +9,9 @@ function obtenercodigoycargarvideo() {
   var contenedorvideo = document.querySelector(".reproductor");
   contenedorvideo.innerHTML = "";
   contenedorvideo.innerHTML +=
-    "<iframe frameborder='0' height='100%' width='100%' allow='gyroscope' <iframe allowfullscreen='' allow='gyroscope' frameborder='' height='640' onload='$('.iframe-loading').css('background-image', 'none');' sandbox='allow-same-origin allow-scripts' scrolling='no' src='https://uqload.org/embed-" +
+    "<iframe allowfullscreen='' allow='gyroscope' frameborder='' height='640' onload='$('.iframe-loading').css('background-image', 'none');' sandbox='allow-same-origin allow-scripts' scrolling='no' src='https://uqload.org/embed-" +
     videocode +
-    ".html' style='border: none;' width='100%'></iframe></iframe>";
+    ".html' style='border: none;' width='100%'></iframe>";
 }
 
 obtenercodigoycargarvideo();
