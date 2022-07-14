@@ -9,7 +9,7 @@ function obtenercodigoycargarvideo() {
   var contenedorvideo = document.querySelector(".reproductor");
   contenedorvideo.innerHTML = "";
   contenedorvideo.innerHTML +=
-    "<iframe allowfullscreen='' allow='gyroscope' frameborder='' height='640' onload='$('.iframe-loading').css('background-image', 'none');' sandbox='allow-same-origin allow-scripts' scrolling='no' src='https://uqload.org/embed-" +
+    "<iframe allowfullscreen='' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' frameborder='' height='640' onload='$('.iframe-loading').css('background-image', 'none');' sandbox='allow-same-origin allow-scripts' scrolling='no' src='https://uqload.org/embed-" +
     videocode +
     ".html' style='border: none;' width='100%'></iframe>";
 }
