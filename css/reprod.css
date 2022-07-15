@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reproductor {
+  width: 100%;
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+}
