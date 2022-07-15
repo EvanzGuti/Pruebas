@@ -14,10 +14,3 @@ body {
 .reproductor {
   width: 100%;
 }
-
-@media screen and (orientation: portrait) {
-  body {
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-  }
-}
